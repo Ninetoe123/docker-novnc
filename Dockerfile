@@ -15,8 +15,6 @@ RUN \
 		numpy \
 	&& \
 	git clone --branch gammel https://github.com/Ninetoe123/noVNC.git /usr/src/app/noVNC \
-	&& \
-	git clone https://github.com/kanaka/websockify /usr/src/app/noVNC/utils/websockify \
 	;
 
 # Run-time
